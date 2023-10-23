@@ -59,7 +59,7 @@ namespace ConsoleApp1.Models
                 }
                 else
                 {
-                    Console.WriteLine("Ad cox uzundur!!!");
+                    Console.WriteLine("Ad cox qisadir!!!");
                 }
             }
         }

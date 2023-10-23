@@ -6,10 +6,6 @@
         protected int _count;
         protected int _price;
 
-        public Product()
-        {
-            
-        }
 
     }
 }
