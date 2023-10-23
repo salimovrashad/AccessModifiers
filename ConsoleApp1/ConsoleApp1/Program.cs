@@ -23,7 +23,7 @@ namespace ConsoleApp1
                 Console.WriteLine("Noutbuk yaddas olcusunu daxil edin...");
                 notebook.Storage = Convert.ToInt32(Console.ReadLine());
 
-                Console.WriteLine($"{notebook.Price} + {notebook.Brand} + {notebook.Model} + {notebook.Ram} + {notebook.Storage}");
+                Console.WriteLine($"Noutbuk adi: {notebook.Brand},noutbukun modeli: {notebook.Model}, ram olcusu: {notebook.Ram}, yaddas olcusu: {notebook.Storage}. Qiymeti: {notebook.Price}");
             }
 
         }

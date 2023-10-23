@@ -4,8 +4,8 @@ namespace ConsoleApp1.Models
 {
     internal class Notebook : Product
     {
-        private string _brand;
-        private string _model;
+        private string _brand = "";
+        private string _model = "";
         private int _ram;
         private int _storage;
         public int Count
